@@ -6,7 +6,7 @@
 @Time    :   2020/01/05 18:14:55
 @Author  :   Carlos Huang
 @Version :   1.0
-@Desc    :   线性回归
+@Desc    :   线性回归(代码参照《深度学习之TensoFlow：入门、原理与进阶实战》)
 """
 
 import tensorflow as tf

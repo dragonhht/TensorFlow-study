@@ -6,7 +6,7 @@
 @Time    :   2020/01/05 18:18:21
 @Author  :   Carlos Huang
 @Version :   1.0
-@Desc    :   None
+@Desc    :   代码参照《深度学习之TensoFlow：入门、原理与进阶实战》
 """
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
