@@ -1,10 +1,17 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+
+"""
+@File    :   Demo.py
+@Time    :   2020/01/05 18:14:55
+@Author  :   Carlos Huang
+@Version :   1.0
+@Desc    :   线性回归
+"""
+
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
-
-"""
-y约等于2x
-"""
 
 plotdata = {"batchsize": [], "loss": []}
 def moving_average(a, w=10):
@@ -73,3 +80,6 @@ with tf.Session() as sess:
     plt.ylabel('Loss')
     plt.title('Minibatch run vs. Training loss')
     plt.show()
+
+    # 使用模型
+    print("x=0.2, z=", sess.run(z, feed_dict={X: 0.2}))
